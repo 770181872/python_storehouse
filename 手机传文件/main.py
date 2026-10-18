@@ -11,8 +11,6 @@ import time_random
 #=====================配置项=====================
 SAFE_ROOT="/storage/emulated/0"
 BLOCK_DIRS={"Android/data","Android/obb"}
-#LOGIN_PASSWORD="一个中文密码，嗯对"
-#RAW_PWD_HASH=hashlib.sha256(LOGIN_PASSWORD.encode("utf-8")).hexdigest()
 RAW_PWD_HASH="c4c9509e74a813a922eee8163ac052c1340f4907ace4da5785f9ba3027e1b8b7"
 PORT=2026
 LISTEN_HOST="0.0.0.0"
